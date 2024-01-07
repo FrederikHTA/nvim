@@ -1,0 +1,22 @@
+-- local config = function()
+--   require("neotest").setup({
+--     adapters = {
+--       require("neotest-dotnet")
+--     }
+--   })
+-- end
+--
+-- return {
+--   "nvim-neotest/neotest",
+--   dependencies = {
+--     {
+--       "nvim-lua/plenary.nvim",
+--       "antoinemadec/FixCursorHold.nvim",
+--       "nvim-treesitter/nvim-treesitter",
+--       "Issafalcon/neotest-dotnet",
+--     },
+--   },
+--   config = config
+-- }
+
+return {}
