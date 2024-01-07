@@ -21,10 +21,6 @@ vim.keymap.set('n', '<C-u>', '<C-u>zzzv')
 vim.keymap.set('n', '<C-d>', '<C-d>zzzv')
 vim.keymap.set('n', '<C-f>', '<C-f>zzzv')
 vim.keymap.set('n', '<C-b>', '<C-b>zzzv')
-vim.keymap.set('n', '<C-h>', '<C-w>h', opts)
-vim.keymap.set('n', '<C-j>', '<C-w>j', opts)
-vim.keymap.set('n', '<C-k>', '<C-w>k', opts)
-vim.keymap.set('n', '<C-l>', '<C-w>l', opts)
 
 -- Telescope
 vim.keymap.set('n', '<leader>sk', ':Telescope keymaps<CR>')
@@ -37,6 +33,10 @@ vim.keymap.set('n', '<leader>sb', ':Telescope buffers<CR>')
 -- Window Management
 vim.keymap.set('n', '<leader>sv', ':vsplit<CR>', opts)
 vim.keymap.set('n', '<leader>sh', ':split<CR>', opts)
+vim.keymap.set('n', '<C-h>', '<C-w>h', opts)
+vim.keymap.set('n', '<C-j>', '<C-w>j', opts)
+vim.keymap.set('n', '<C-k>', '<C-w>k', opts)
+vim.keymap.set('n', '<C-l>', '<C-w>l', opts)
 
 -- Visual mode keymaps
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
